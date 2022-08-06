@@ -11,7 +11,6 @@ parser = argparse.ArgumentParser()
 #allows for arguments given in the command line to be taken as variables
 parser.add_argument("filename", type=str, help="filename of the image to process")
 parser.add_argument("--network", type=str, default="googlenet", help="model to use, can be:  googlenet, resnet-18, ect. (see --help for others)")
-parser.add_argument("flavor", type=str, help="Type of jelly bean to be detected")
 
 #creates a parser object that allows the command line variables to be passed into the program
 opt = parser.parse_args()
@@ -29,6 +28,6 @@ while True:
 
 
     class_desc = net.GetClassDesc(class_idx)
-    if(class_desc == opt.flavor):
+    if(class_desc == "LIQUORICE"):
         #here any result from detecting the bean flavor
         print("WARNING >>> YUCKY BEAN DETECTED")
