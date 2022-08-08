@@ -26,3 +26,5 @@ This could effect all the people who dislike ceratin jelly bean flavors.
 2. The brand this is meant to work with is unknown so change the flavor you are looking for based on the bean that it most closely resembles with the brand you're using
 <br>
 3. The only error is within the BeanNet.py program as I cannot load the network without loading imagenet as well
+<br>
+4. If you find the soulution please contact me, I dont know what I did wrong.
