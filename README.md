@@ -20,4 +20,9 @@ This could effect all the people who dislike ceratin jelly bean flavors.
 
 
 
-<h1>Additional notes</h1>
+<h1>Important notes</h1>
+1. Due to the timing of the project it is not currently in a working state
+<br>
+2. The brand this is meant to work with is unknown so change the flavor you are looking for based on the bean that it most closely resembles with the brand you're using
+<br>
+3. The only error is within the BeanNet.py program as I cannot load the network without loading imagenet as well
