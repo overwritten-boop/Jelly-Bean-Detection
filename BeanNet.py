@@ -1,7 +1,8 @@
-#imports libraries to be used later in the program
+#inference is a python wrapper of the cpp version of the nn usage functions
 import jetson.inference
+#utils is the camera and utilites ect.
 import jetson.utils
-
+#used to parse the command line
 import argparse
 
 #creates a parser object to translate the command line to variables
@@ -21,7 +22,7 @@ opt = parser.parse_args()
 input = jetson.utils.videoSource("/dev/video0")
 
 #gets the network from the file path provided in the parameters
-net = jetson.inference.imageNet("beansnet.onnx")
+net = jetson.inference.imageNet("--model beansnet.onnx")
 
 while True:
     #gets the input from the
