@@ -22,7 +22,7 @@ opt = parser.parse_args()
 input = jetson.utils.videoSource("/dev/video0")
 
 #gets the network from the file path provided in the parameters
-net = jetson.inference.imageNet("--network=resnet-18", argv = ["--model=beansnet18.onnx", "--labels=labels.txt"])
+net = jetson.inference.imageNet("resnet-18", argv = ["--model=beansnet18.onnx", "--labels=labels.txt"])
 
 while True:
     #gets the input from the
