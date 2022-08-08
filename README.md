@@ -10,12 +10,13 @@ This could effect all the people who dislike ceratin jelly bean flavors.
 <br>
 2. Install the JellyBP folder
 <br>
-3. Run the 
-
-
-
+3. Make sure python 3 is installed on your computer
+<br>
+4. You're good to go!
 <h1>Basics for Running the Program</h1>
-
+1. In the shell navigate to the jellyBP directory
+<br>
+2. Run the command: <pre>python3 BeanNet.py </pre>
 
 
 
